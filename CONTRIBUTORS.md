@@ -8,3 +8,4 @@ Not awesome yet? Get your name listed by making a pull request!
 - [Ashutosh Ranjan](https://github.com/ashutoshhack)
 - [Akshat Gupta](https://github.com/akshat235)
 - [Tirtha Sarker](https://github.com/tirtha4)
+- [Bertram Truong](https://github.com/bt)
