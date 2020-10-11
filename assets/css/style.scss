@@ -1,0 +1,50 @@
+---
+---
+
+$header-bg-colors: #673ab7, #3f51b5;
+$header-bg-colors-secondary: #e91e63, #009688;
+
+$color-index: random(length($header-bg-colors));
+
+$header-bg-color: nth($header-bg-colors, $color-index);
+$header-bg-color-secondary: nth($header-bg-colors-secondary, $color-index);
+
+$section-headings-color: nth($header-bg-colors-secondary, $color-index);
+$body-text-color: #606c71;
+$body-link-color: nth($header-bg-colors-secondary, $color-index);
+$blockquote-text-color: #819198;
+
+@import "{{ site.theme }}";
+
+progress[value] {
+
+	width: 100%;
+	height: 10px;
+	border: none;
+
+	-webkit-appearance: none;
+       -moz-appearance: none;
+	        appearance: none;
+
+}
+
+progress[value]::-webkit-progress-bar {
+
+	border-radius: 10px;
+	background-color: #e6e6e6;
+
+}
+
+progress[value]::-webkit-progress-value {
+
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient( 180deg, $header-bg-color, $header-bg-color-secondary );
+
+}
+
+progress[value]::-moz-progress-bar {
+
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( to left, $header-bg-color, $header-bg-color-secondary );
+
+}
