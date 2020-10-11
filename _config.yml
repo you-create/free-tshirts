@@ -17,8 +17,9 @@ social:
         - https://you-create.github.io/free-tshirts
 
 plugins:
-  - jekyll-seo-tag
-  - jemoji
+    - jekyll-toc
+    - jekyll-seo-tag
+    - jemoji
 
-exclude: [bundle]
+exclude: [bundle,Gemfile,Gemfile.lock]
 disable_disk_cache: true
