@@ -1,0 +1,10 @@
+{% assign milestone = site.data.project.milestone %}
+{% assign num_contributors = site.github.contributors | size %}
+
+<progress value="{{ num_contributors }}" max="{{ milestone }}">
+	{{ num_contributors }}
+</progress>
+
+{{ num_contributors }} awesome people have contributed!
+{{ milestone | minus: num_contributors }} more contributors needed to reach
+{{ milestone }}!
