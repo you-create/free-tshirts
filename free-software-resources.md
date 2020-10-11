@@ -4,7 +4,7 @@ description: Resources for your journey as a free software evangelist
 toc: true
 ---
 
-# Getting to know about free software
+## Getting to know about free software
 
 - [The GNU Project, _What is free software?_](https://www.gnu.org/philosophy/free-sw.en.html)
 - [Richard Stallman, _Free Software Is Even More Important Now_](https://www.gnu.org/philosophy/free-software-even-more-important.html)
