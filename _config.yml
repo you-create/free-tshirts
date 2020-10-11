@@ -7,10 +7,10 @@ theme: jekyll-theme-primer
 
 tagline: Improve this repository and get yourself some free t-shirts
 description: A fun campaign that aims to spread the awareness of free software
-logo:
+logo: assets/media/logo.websafe.png
 author:
-    name:
-    email:
+    name: Nguyen Hoang Duong
+    email: you_create@protonmail.com
 social:
     name: The Free T-shirts Campaign
     links:
