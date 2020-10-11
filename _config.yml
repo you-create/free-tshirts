@@ -1,2 +1,24 @@
+# Website
+
+title: The Free T-shirts Campaign
+theme: jekyll-theme-primer
+
+# SEO
+
+tagline: Improve this repository and get yourself some free t-shirts
+description: A fun campaign that aims to spread the awareness of free software
+logo:
+author:
+    name:
+    email:
+social:
+    name: The Free T-shirts Campaign
+    links:
+        - https://you-create.github.io/free-tshirts
+
 plugins:
+  - jekyll-seo-tag
   - jemoji
+
+exclude: [bundle]
+disable_disk_cache: true
