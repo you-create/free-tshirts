@@ -1,2 +1,2 @@
 #!/usr/bin/env python3
-print("Free T-Shirts! 👕\n")
+print("Free T-Shirts! 👕")
